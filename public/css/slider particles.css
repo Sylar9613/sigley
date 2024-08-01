@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  height: 70px;
+  position: fixed;
+  z-index: 10;
+}
+
+.ancho {
+  width: 80%;
+  height: 70px;
+  margin: auto;
+}
+
+.logo {
+  width: 30%;
+  height: 70px;
+  float: left;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.logo p a {
+  color: #ffffff;
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: fantasy;
+}
+
+nav {
+  width: 70%;
+  height: 70px;
+  float: left;
+  text-align: right;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: #ffffff;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: fantasy;
+}
+nav ul li a:hover {
+  color: #444;
+}
+
+#particles-js {
+  /* position: relative;
+  top: 70px; */
+  background: url(../images/fondo.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  width: 100%;
+}
+
+.ancho-letras {
+  top: 200px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.letras-slider {
+  width: 80%;
+  margin: auto;
+  font-family: sans-serif;
+}
+.letras-slider h1 {
+  color: #ffffff;
+  font-size: 70px;
+}
+.letras-slider p {
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 50px;
+}
